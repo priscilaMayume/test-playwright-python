@@ -1,0 +1,9 @@
+#dependencias - bibliotecas
+pytest
+playwright
+pytest-playwright
+python-dotenv
+allure-pytest
+logzero
+jsonschema
+pytest-xdist

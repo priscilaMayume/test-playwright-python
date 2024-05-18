@@ -1,0 +1,35 @@
+# Arquivos de compilação Python
+__pycache__/
+*.pyc
+
+# Ambiente virtual Python (exemplo: virtualenv, venv, etc.)
+venv/
+env/
+*.env
+
+# Arquivos de dependências Python
+# Exemplos baseados no gerenciador de pacotes pip
+# Adicione outras dependências conforme necessário
+# pipenv
+Pipfile
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Arquivos de configuração IDE
+.idea/
+
+# Logs e arquivos de saída
+*.log
+logs/
+output/
+
+# Arquivos de ambiente e chaves sensíveis
+.env
+.env.local
+.env.*.local
+
+# Arquivos de configuração específicos do sistema
+.DS_Store
+Thumbs.db

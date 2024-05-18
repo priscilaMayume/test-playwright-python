@@ -1,0 +1,6 @@
+#inicializar os testes
+[tool.pytest.ini.options]
+
+#config de reports de execução do teste
+addopts = "-v --alluredir= --clean-alluredir"
+filterwarnings = ['ignore::UserWarning']
