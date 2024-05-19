@@ -37,7 +37,6 @@ class Common:
             return float(value.split('.')[0])
         elif value == 'None':
             return None
-        elif value == 'number_negative':
             return -1
         elif value == 'boolean_true':
             return True
