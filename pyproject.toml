@@ -1,8 +1,3 @@
-#inicializar os testes
-[tool.pytest.ini.options]
-
-#config de reports de execução do teste
+[tool.pytest.ini_options]
 addopts = "-v --alluredir=/Users/priscilahirotsu/pessoal/estudo/projetos/test-playwright-python/reports/allure-results --clean-alluredir"
-filterwarnings = ['ignore::UserWarning']
-
-
+filterwarnings = ["ignore::UserWarning"]
