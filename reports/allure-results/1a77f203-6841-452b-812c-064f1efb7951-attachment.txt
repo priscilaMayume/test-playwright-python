@@ -1,0 +1,25 @@
+[INFO] 2024-05-20 20:28:19 Teste log before all
+[INFO] 2024-05-20 20:28:19 Teste log before
+[INFO] 2024-05-20 20:28:19 Payload: 
+    {
+     "nome": "Test playrigth-Pri-PY!",
+     "autor": "Pri",
+     "dataPublicacao": "2024-05-18",
+     "qtdePaginas": 1212
+    }
+[INFO] 2024-05-20 20:28:20 POST
+[INFO] 2024-05-20 20:28:20 http://132.145.174.237:3000/livros
+[INFO] 2024-05-20 20:28:20 Response: 
+    {
+     "id": 697,
+     "nome": "Test playrigth-Pri-PY!",
+     "autor": "Pri",
+     "data_publicacao": "2024-05-18T00:00:00.000Z",
+     "qtde_paginas": 1212,
+     "created_on": "2024-05-20T23:28:20.128Z",
+     "update_at": null
+    }
+[INFO] 2024-05-20 20:28:20 Status Code esperado: 201
+[INFO] 2024-05-20 20:28:20 Status Code recebido: 201
+[INFO] 2024-05-20 20:28:20 Contrato Validado com Sucesso!
+[INFO] 2024-05-20 20:28:20 Teste log after
