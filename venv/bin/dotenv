@@ -1,4 +1,4 @@
-#!/Users/priscilahirotsu/pessoal/estudo/projetos/test-plywright-python/venv/bin/python3.12
+#!/Users/priscilahirotsu/pessoal/estudo/projetos/test-playwright-python/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
