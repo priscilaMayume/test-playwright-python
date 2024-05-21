@@ -1,6 +1,9 @@
 import random
 import string
 
+from pytests.support.api_utils import ApiUtils
+
+
 class Common:
     @staticmethod
     def incorrect_payload(incorrect_payloads):
@@ -99,3 +102,8 @@ class Common:
         else:
             del payload[field]
         return payload
+
+    @staticmethod
+    def validate_response(response, code):
+        ApiUtils.request_parse_log(response)
+        ApiUtils.validate_status_code(response, code)

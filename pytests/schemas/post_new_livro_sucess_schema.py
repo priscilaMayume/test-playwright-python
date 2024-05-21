@@ -1,4 +1,4 @@
-post_schema = {
+post_new_livro_sucess_schema = {
     "type": "object",
     "properties": {
         "id": {
