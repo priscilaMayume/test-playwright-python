@@ -24,7 +24,9 @@ poetry.lock
 *.log
 logs/
 output/
-reports/allure-results/
+
+# Diretórios de resultados do Allure
+reports/allure-results
 
 # Arquivos de ambiente e chaves sensíveis
 .env
