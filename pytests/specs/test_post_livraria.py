@@ -8,7 +8,7 @@ from pytests.support.api_utils import ApiUtils
 from pytests.support.hooks import *
 
 @pytest.mark.crud_livros
-def test_post_registrar_livro_sucess():
+def test_post_new_livro_sucess():
     client = LivrariaClient()
     client.set_base_url()
     payload = payload_post_livros()

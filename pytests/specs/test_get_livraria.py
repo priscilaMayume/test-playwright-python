@@ -1,6 +1,6 @@
 from pytests.clients.common import Common
 from pytests.clients.livraria_client import LivrariaClient
-from pytests.schemas.get_id_livro_sucess import *
+from pytests.schemas.get_id_livro_sucess_schema import *
 from pytests.support.api_utils import ApiUtils
 from pytests.support.hooks import *
 from pytests.exemples.exemples_teste_get_livraria import *
