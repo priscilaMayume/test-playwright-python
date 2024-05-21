@@ -1,0 +1,17 @@
+[INFO] 2024-05-21 08:36:30 Teste log before all
+[INFO] 2024-05-21 08:36:30 Teste log before
+[INFO] 2024-05-21 08:36:30 Payload: 
+    {
+     "autor": "Pri",
+     "dataPublicacao": "2024-05-18",
+     "qtdePaginas": 1212
+    }
+[INFO] 2024-05-21 08:36:30 POST
+[INFO] 2024-05-21 08:36:30 http://132.145.174.237:3000/livros
+[INFO] 2024-05-21 08:36:30 Response: 
+    {
+     "error": "Nome do livro não pode ser em branco ou nulo"
+    }
+[INFO] 2024-05-21 08:36:30 Status Code esperado: 400
+[INFO] 2024-05-21 08:36:30 Status Code recebido: 400
+[INFO] 2024-05-21 08:36:30 Teste log after

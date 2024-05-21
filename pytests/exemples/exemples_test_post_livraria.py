@@ -11,7 +11,7 @@ exemples_post_livraria_invalid_payload = [
 
 ]
 
-exemples_post_livraria_invalid_values = {
+exemples_post_livraria_invalid_values = [
     ("nome", "123", 400),
     #transformar em inteiro
     ("nome", "123_to_i", 400),
@@ -68,5 +68,13 @@ exemples_post_livraria_invalid_values = {
     ("qtdePaginas", "256.characters_type_numbers", 400),
     ("qtdePaginas", "Array", 400),
     ("qtdePaginas", "Hash", 400)
+]
 
-}
+exemples_post_livraria_no_fields = [
+    ("nome", 400),
+    ("autor", 400),
+    ("dataPublicacao", 400),
+    ("qtdePaginas", 400)
+]
+
+

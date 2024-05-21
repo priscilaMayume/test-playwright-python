@@ -36,3 +36,13 @@ def test_post_livros_invalid_values(field, value, code):
     response = PostLivrariaClient.post_livros(uri, payload)
     PostLivrariaClient.validate_response(response, code)
 
+@pytest.mark.crud_livros
+@pytest.mark.parametrize("field, code", exemples_post_livraria_no_fields)
+def test_post_livros_no_fields(field, code):
+    payload = payload_post_livros()
+    payload = Common.remove_fields_payload(payload, field)
+    ApiUtils.payload_parse(payload)
+    uri = f"{os.environ['BASE_URL']}livros"
+    response = PostLivrariaClient.post_livros(uri, payload)
+    PostLivrariaClient.validate_response(response, code)
+
