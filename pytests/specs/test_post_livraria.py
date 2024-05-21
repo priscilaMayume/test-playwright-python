@@ -7,7 +7,6 @@ from pytests.schemas.post_new_livro_sucess_schema import *
 from pytests.support.api_utils import ApiUtils
 from pytests.support.hooks import *
 
-
 @pytest.mark.crud_livros
 def test_post_registrar_livro_sucess():
     client = LivrariaClient()

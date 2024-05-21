@@ -64,7 +64,7 @@ exemples_post_livraria_invalid_values = [
     ("qtdePaginas", "number_negative", 400),
     ("qtdePaginas", "boolean_true", 400),
     ("qtdePaginas", "boolean_false", 400),
-    ("qtdePaginas", "256.characters_type_numbers", 400),
+    ("qtdePaginas", "256.characters_type_string", 400),
     ("qtdePaginas", "256.characters_type_numbers", 400),
     ("qtdePaginas", "Array", 400),
     ("qtdePaginas", "Hash", 400)
@@ -76,5 +76,3 @@ exemples_post_livraria_no_fields = [
     ("dataPublicacao", 400),
     ("qtdePaginas", 400)
 ]
-
-
