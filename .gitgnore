@@ -18,7 +18,7 @@ Pipfile.lock
 poetry.lock
 
 # Arquivos de configuração IDE
-.idea/
+.idea/*
 
 # Logs e arquivos de saída
 *.log
