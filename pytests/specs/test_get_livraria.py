@@ -3,7 +3,7 @@ from pytests.clients.livraria_client import LivrariaClient
 from pytests.schemas.get_id_livro_sucess_schema import *
 from pytests.support.api_utils import ApiUtils
 from pytests.support.hooks import *
-from pytests.exemples.exemples_teste_get_livraria import *
+from pytests.exemples.exemples_test_get_livraria import *
 
 @pytest.mark.crud_livros
 def test_get_all_livro_sucess():
