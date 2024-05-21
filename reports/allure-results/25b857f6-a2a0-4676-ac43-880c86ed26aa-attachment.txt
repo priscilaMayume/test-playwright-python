@@ -1,0 +1,10 @@
+[INFO] 2024-05-21 12:18:15 Teste log before
+[INFO] 2024-05-21 12:18:15 PUT
+[INFO] 2024-05-21 12:18:15 http://132.145.174.237:3000/livros/123_to_i
+[INFO] 2024-05-21 12:18:15 Response: 
+    {
+     "error": "ID do livro deve ser um número"
+    }
+[INFO] 2024-05-21 12:18:15 Status Code esperado: 400
+[INFO] 2024-05-21 12:18:15 Status Code recebido: 400
+[INFO] 2024-05-21 12:18:15 Teste log after

@@ -1,0 +1,12 @@
+[INFO] 2024-05-21 12:17:54 Teste log before
+[INFO] 2024-05-21 12:17:54 Payload: 
+    null
+[INFO] 2024-05-21 12:17:54 PUT
+[INFO] 2024-05-21 12:17:54 http://132.145.174.237:3000/livros/4
+[INFO] 2024-05-21 12:17:54 Response: 
+    {
+     "error": "Nome do livro não pode ser em branco ou nulo"
+    }
+[INFO] 2024-05-21 12:17:54 Status Code esperado: 400
+[INFO] 2024-05-21 12:17:54 Status Code recebido: 400
+[INFO] 2024-05-21 12:17:54 Teste log after

@@ -1,0 +1,20 @@
+[INFO] 2024-05-21 12:17:54 Teste log before
+[INFO] 2024-05-21 12:17:54 Payload: 
+    true
+[INFO] 2024-05-21 12:17:54 PUT
+[INFO] 2024-05-21 12:17:54 http://132.145.174.237:3000/livros/4
+[INFO] 2024-05-21 12:17:54 Response: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    </head>
+    <body>
+    <pre>SyntaxError: Unexpected token t in JSON at position 0<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at createStrictSyntaxError (/api-livraria/node_modules/body-parser/lib/types/json.js:169:10)<br> &nbsp; &nbsp;at parse (/api-livraria/node_modules/body-parser/lib/types/json.js:86:15)<br> &nbsp; &nbsp;at /api-livraria/node_modules/body-parser/lib/read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (async_hooks.js:197:9)<br> &nbsp; &nbsp;at invokeCallback (/api-livraria/node_modules/raw-body/index.js:238:16)<br> &nbsp; &nbsp;at done (/api-livraria/node_modules/raw-body/index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (/api-livraria/node_modules/raw-body/index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (events.js:412:35)<br> &nbsp; &nbsp;at endReadableNT (internal/streams/readable.js:1333:12)</pre>
+    </body>
+    </html>
+    
+[INFO] 2024-05-21 12:17:54 Status Code esperado: 400
+[INFO] 2024-05-21 12:17:54 Status Code recebido: 400
+[INFO] 2024-05-21 12:17:54 Teste log after

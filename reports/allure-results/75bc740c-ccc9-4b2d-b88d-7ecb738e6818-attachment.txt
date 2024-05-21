@@ -1,0 +1,17 @@
+[INFO] 2024-05-21 12:18:08 Teste log before
+[INFO] 2024-05-21 12:18:08 Payload: 
+    {
+     "nome": "Test playrigth-Pri-PY!",
+     "autor": "Pri",
+     "dataPublicacao": "2056/03/01",
+     "qtdePaginas": 1212
+    }
+[INFO] 2024-05-21 12:18:09 PUT
+[INFO] 2024-05-21 12:18:09 http://132.145.174.237:3000/livros/4
+[INFO] 2024-05-21 12:18:09 Response: 
+    {
+     "error": "Data da publicação do livro deve ser válida"
+    }
+[INFO] 2024-05-21 12:18:09 Status Code esperado: 400
+[INFO] 2024-05-21 12:18:09 Status Code recebido: 400
+[INFO] 2024-05-21 12:18:09 Teste log after

@@ -1,0 +1,17 @@
+[INFO] 2024-05-21 12:18:10 Teste log before
+[INFO] 2024-05-21 12:18:10 Payload: 
+    {
+     "nome": "Test playrigth-Pri-PY!",
+     "autor": "Pri",
+     "dataPublicacao": "2024-05-18",
+     "qtdePaginas": "Null"
+    }
+[INFO] 2024-05-21 12:18:11 PUT
+[INFO] 2024-05-21 12:18:11 http://132.145.174.237:3000/livros/4
+[INFO] 2024-05-21 12:18:11 Response: 
+    {
+     "error": "Quantidade de paginas do livro deve ser um número"
+    }
+[INFO] 2024-05-21 12:18:11 Status Code esperado: 400
+[INFO] 2024-05-21 12:18:11 Status Code recebido: 400
+[INFO] 2024-05-21 12:18:11 Teste log after

@@ -1,0 +1,16 @@
+[INFO] 2024-05-21 12:18:13 Teste log before
+[INFO] 2024-05-21 12:18:13 Payload: 
+    {
+     "nome": "Test playrigth-Pri-PY!",
+     "dataPublicacao": "2024-05-18",
+     "qtdePaginas": 1212
+    }
+[INFO] 2024-05-21 12:18:14 PUT
+[INFO] 2024-05-21 12:18:14 http://132.145.174.237:3000/livros/4
+[INFO] 2024-05-21 12:18:14 Response: 
+    {
+     "error": "Autor do livro não pode ser em branco ou nulo"
+    }
+[INFO] 2024-05-21 12:18:14 Status Code esperado: 400
+[INFO] 2024-05-21 12:18:14 Status Code recebido: 400
+[INFO] 2024-05-21 12:18:14 Teste log after

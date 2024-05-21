@@ -1,0 +1,10 @@
+[INFO] 2024-05-21 12:18:17 Teste log before
+[INFO] 2024-05-21 12:18:18 PUT
+[INFO] 2024-05-21 12:18:18 http://132.145.174.237:3000/livros/rrexjptjhatryeyrfwsbitazheqxvhqgizekbenidkpxaswjzaamlpyofayindmbbxpjvjjyerpeiutxtoarjjcrgjpigtbmjiejzaqmrpeoyizewiesqigsowufywgmipsoxkcjmyutfjyyhggdoarndopzcalbdmdsmgfnakhxxoeyswknboqtacmumjzvxasjdtezvcpkcveopeosxgcjgbgyvlznfdfridkpvxtaqypzpnsvokufpxqgfuqv
+[INFO] 2024-05-21 12:18:18 Response: 
+    {
+     "error": "ID do livro deve ser um número"
+    }
+[INFO] 2024-05-21 12:18:18 Status Code esperado: 400
+[INFO] 2024-05-21 12:18:18 Status Code recebido: 400
+[INFO] 2024-05-21 12:18:18 Teste log after
