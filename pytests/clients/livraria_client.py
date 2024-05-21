@@ -1,6 +1,5 @@
 import os
 
-import self
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright
 
@@ -68,5 +67,18 @@ class LivrariaClient:
             context = p.request.new_context()
             response = context.patch(url, data=payload, headers={"Content-Type": "application/json"})
             LOG.log_info("PATCH")
+            LOG.log_info(url)
+            return {"code": response.status, "body": response.text(), "headers": response.headers}
+
+    def delete_livros(self, id=""):
+        if self.base_url is None:
+            raise ValueError(
+                "A URL base não foi definida. Use set_base_url() para definir a URL base antes de fazer a requisição.")
+
+        url = f"{self.base_url}{id}"
+        with sync_playwright() as p:
+            context = p.request.new_context()
+            response = context.delete(url)
+            LOG.log_info("DELETE")
             LOG.log_info(url)
             return {"code": response.status, "body": response.text(), "headers": response.headers}
